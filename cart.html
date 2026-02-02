@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">Amazon</a>
+    <span>Your Cart</span>
+  </header>
+
+  <main class="container">
+    <div id="cartItems"></div>
+
+    <div class="cart-summary">
+        <h2>Total: $<span id="totalPrice">0</span></h2>
+        <button id="checkoutBtn" class="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+    <div class="modal-content">
+        <h2>Purchase Successful! 🎉</h2>
+        <p>Thank you for your order.</p>
+        <button id="closeModal">Close</button>
+    </div>
+    </div>
+
+    <!-- Canvas for confetti -->
+    <canvas id="confettiCanvas"></canvas>
+
+
+  </main>
+
+  <script src="script/cart.js"></script>
+</body>
+</html>

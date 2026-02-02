@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.navbar {
+  background: #131921;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  color: #ff9900;
+}
+
+.navbar input {
+  flex: 1;
+  padding: 8px;
+}
+
+.cart-link {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.product-grid img {
+  width: 200px;       /* fixed width */
+  height: 200px;      /* fixed height */
+  object-fit: cover;  /* maintains aspect ratio, crops if needed */
+  border-radius: 8px; /* optional: rounded corners */
+  display: block;
+  margin: 0 auto;     /* center images in their container */
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card button {
+  background: #ffd814;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.product-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background: white;
+  padding: 20px;
+}
+
+.product-details img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info h2 {
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  margin: 10px 0;
+}
+
+.product-info button {
+  background: #ffd814;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+}
+
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 100px 1fr 120px;
+  gap: 20px;
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 100%;
+}
+
+.cart-item h3 {
+  font-size: 16px;
+}
+
+.cart-item button {
+  background: #ffd814;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-title {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+}
+
+.cart-item-price {
+  margin: 0 0 10px;
+  color: #555;
+  font-weight: 500;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item-quantity button {
+  width: 28px;
+  height: 28px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cart-item-quantity span {
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.cart-item-remove {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-item-total {
+  font-size: 1.1rem;
+  font-weight: bold;
+  min-width: 80px;
+  text-align: right;
+}
+
+.checkout-btn {
+  background: #ffa41c;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* Modal */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+  margin-bottom: 15px;
+  color: #28a745;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Confetti canvas */
+#confettiCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+/* Modal animation */
+@keyframes modalIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal.show .modal-content {
+  animation: modalIn 0.5s ease forwards;
+}
+
+

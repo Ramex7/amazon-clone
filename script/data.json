@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Bluetooth Headphones",
+    "price": 59.99,
+    "category": "electronics",
+    "image": "https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lyZWxlc3MlMjBoZWFkcGhvbmVzfGVufDB8fDB8fHww",
+    "rating": 4.5,
+    "description": "High-quality wireless headphones with noise cancellation and long battery life."
+  },
+  {
+    "id": 2,
+    "title": "Smart Watch Fitness Tracker",
+    "price": 129.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+    "rating": 4.3,
+    "description": "Track your steps, heart rate, and notifications with this smart fitness watch."
+  },
+  {
+    "id": 3,
+    "title": "Men's Running Shoes",
+    "price": 79.99,
+    "category": "fashion",
+    "image": "https://plus.unsplash.com/premium_photo-1682435561654-20d84cef00eb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
+    "rating": 4.7,
+    "description": "Comfortable and durable running shoes designed for daily workouts."
+  },
+  {
+    "id": 4,
+    "title": "Laptop Backpack",
+    "price": 49.99,
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca",
+    "rating": 4.4,
+    "description": "Water-resistant backpack with padded laptop compartment."
+  },
+  {
+    "id": 5,
+    "title": "Mechanical Gaming Keyboard",
+    "price": 89.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "rating": 4.6,
+    "description": "RGB mechanical keyboard with tactile switches for gamers."
+  },
+  {
+    "id": 6,
+    "title": "Wireless Mouse",
+    "price": 29.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04",
+    "rating": 4.2,
+    "description": "Ergonomic wireless mouse with precision tracking."
+  },
+  {
+    "id": 7,
+    "title": "Coffee Maker Machine",
+    "price": 99.99,
+    "category": "home",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+    "rating": 4.5,
+    "description": "Brew fresh coffee at home with this easy-to-use coffee maker."
+  },
+  {
+    "id": 8,
+    "title": "LED Desk Lamp",
+    "price": 24.99,
+    "category": "home",
+    "image": "https://plus.unsplash.com/premium_photo-1681470951009-8642b690258b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGVkJTIwZGVzayUyMGxhbXB8ZW58MHx8MHx8fDA%3D",
+    "rating": 4.1,
+    "description": "Adjustable LED desk lamp with touch controls and brightness levels."
+  },
+  {
+    "id": 9,
+    "title": "Noise Cancelling Earbuds",
+    "price": 69.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+    "rating": 4.4,
+    "description": "Compact earbuds with deep bass and active noise cancellation."
+  },
+  {
+    "id": 10,
+    "title": "Stainless Steel Water Bottle",
+    "price": 19.99,
+    "category": "sports",
+    "image": "https://images.unsplash.com/photo-1683959553163-effca29b546e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RlZWwlMjB3YXRlciUyMGJvdHRsZXxlbnwwfHwwfHx8MA%3D%3D",
+    "rating": 4.8,
+    "description": "Insulated stainless steel bottle that keeps drinks cold or hot for hours."
+  },
+  {
+    "id": 11,
+    "title": "Wireless Gaming Mouse",
+    "price": 29.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1725440158555-30f0a4e38f76?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtbWluZyUyMG1vdXNlfGVufDB8fDB8fHww",
+    "rating": 4.5,
+    "description": "High precision wireless gaming mouse with customizable DPI and RGB lighting."
+  },
+  {
+    "id": 12,
+    "title": "Bluetooth Headphones",
+    "price": 49.99,
+    "category": "electronics",
+    "image": "https://plus.unsplash.com/premium_photo-1677838847804-4054143fb91a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZXRvb3RoJTIwaGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rating": 4.6,
+    "description": "Over-ear Bluetooth headphones with deep bass and long battery life."
+  },
+  {
+    "id": 13,
+    "title": "Smart LED Light Bulb",
+    "price": 15.99,
+    "category": "home",
+    "image": "https://plus.unsplash.com/premium_photo-1729478458041-591afd2f59c3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c21hcnQlMjBidWxifGVufDB8fDB8fHww",
+    "rating": 4.3,
+    "description": "WiFi-enabled LED bulb with color changing and scheduling features."
+  },
+  {
+    "id": 14,
+    "title": "USB-C Fast Charger",
+    "price": 19.99,
+    "category": "electronics",
+    "image": "https://plus.unsplash.com/premium_photo-1669261149433-febd56c05327?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNiJTIwYyUyMGNhYmxlfGVufDB8fDB8fHww",
+    "rating": 4.7,
+    "description": "High-speed USB-C charger for smartphones and tablets."
+  },
+  {
+    "id": 15,
+    "title": "Fitness Tracker Watch",
+    "price": 59.99,
+    "category": "fitness",
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    "rating": 4.4,
+    "description": "Track your steps, heart rate, and sleep with this sleek fitness tracker."
+  },
+  {
+    "id": 16,
+    "title": "Portable Bluetooth Speaker",
+    "price": 39.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "rating": 4.6,
+    "description": "Compact portable speaker with crystal-clear sound and deep bass."
+  },
+  {
+    "id": 17,
+    "title": "Laptop Cooling Pad",
+    "price": 24.99,
+    "category": "computers",
+    "image": "https://plus.unsplash.com/premium_photo-1680371834671-26c3d8f0e0d8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwY29vbGluZyUyMHBhZHxlbnwwfHwwfHx8MA%3D%3D",
+    "rating": 4.5,
+    "description": "Keep your laptop cool during heavy usage with this efficient cooling pad."
+  },
+  {
+    "id": 18,
+    "title": "Wireless Keyboard",
+    "price": 34.99,
+    "category": "computers",
+    "image": "https://plus.unsplash.com/premium_photo-1683543124615-fb42e42c6201?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2V5Ym9hcmR8ZW58MHx8MHx8fDA%3D",
+    "rating": 4.6,
+    "description": "Slim wireless keyboard with comfortable keys and long battery life."
+  },
+  {
+    "id": 19,
+    "title": "Smartphone Tripod",
+    "price": 21.99,
+    "category": "photography",
+    "image": "https://images.unsplash.com/photo-1576299090369-9067e4adca28?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJpcG9kfGVufDB8fDB8fHww",
+    "rating": 4.4,
+    "description": "Lightweight tripod for smartphones with adjustable height and angle."
+  },
+  {
+    "id": 20,
+    "title": "Noise Cancelling Earbuds",
+    "price": 45.99,
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWFyYnVkc3xlbnwwfHwwfHx8MA%3D%3D",
+    "rating": 4.7,
+    "description": "In-ear earbuds with active noise cancellation and long battery life."
+  }
+]
